@@ -8,6 +8,11 @@
 .navbar {
   background-color: #1E2601;
   border: 1px solid #1E2601; }
+  .navbar .navbar-left li:hover {
+    background-color: #324001; }
+  .navbar .navbar-left li a {
+    color: white !important;
+    font-size: 20px; }
   .navbar .navbar-right a {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;

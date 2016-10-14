@@ -20,6 +20,19 @@ $ul-li: #324001;
 .navbar {
   background-color: $weed;
   border: 1px solid $weed;
+  .navbar-left{
+    li {
+      &:hover{
+        background-color: $ul-li;
+      }
+      a{
+        color: white !important;
+        font-size: 20px;
+        &:hover{
+        }
+      }
+    }
+  }
   .navbar-right {
     a {
     font-family: 'Ubuntu', sans-serif;
