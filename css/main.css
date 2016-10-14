@@ -1,10 +1,37 @@
 .osw {
   font-family: 'Oswald', sans-serif; }
 
-.navbar-right a {
-  font-family: 'Oswald', sans-serif; }
+.ubu {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300; }
 
-img {
+.navbar {
+  background-color: #1E2601;
+  border: 1px solid #1E2601; }
+  .navbar .navbar-right a {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: white !important;
+    letter-spacing: 2px; }
+    .navbar .navbar-right a:hover {
+      background-color: #324001; }
+  .navbar .navbar-right .dropdown-toggle:hover {
+    background-color: #324001; }
+  .navbar .navbar-right .dropdown-menu {
+    background-color: #1E2601;
+    border: 1px solid #1E2601; }
+
+#banner {
+  background: url(../img/bg1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 80px 0px;
+  margin-top: 30px; }
+  #banner img {
+    width: 35%; }
+
+#posts img {
   width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
